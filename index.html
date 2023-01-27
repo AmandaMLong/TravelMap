@@ -241,13 +241,13 @@ css: [../plugins/travelmap/css/custom.css']
 <!-- hover style -->
 <script>
     var map_config = {
-        'default':{'borderColor':'#9CA8B6','mapShadow':'#fff','shadowOpacity':'35','hoverShadow':'#666666','lakesColor':'#66CCFF','namesColor':'#919191',},
+        'default':{'borderColor':'#cb997e','mapShadow':'#fff','shadowOpacity':'35','hoverShadow':'#666666','lakesColor':'#66CCFF','namesColor':'#919191',},
         {% for location in site.data.country_names %}
         '{{location.index}}':{
             {% if location.visited %}
-            'hover': '{{location.country_name}}','upColor':'#F8B2A3','overColor':'#dda15e','downColor':'#477cb2','enable':true,
+            'hover': '{{location.country_name}}','upColor':'#a5a58d','overColor':'#6b705c','downColor':'#6b705c','enable':true,
             {% else %}
-            'hover': '{{location.country_name}}','upColor':'#CFF7F9','overColor':'#dda15e','downColor':'#477cb2','enable':true,
+            'hover': '{{location.country_name}}','upColor':'#ddbea9','overColor':'#6b705c','downColor':'#6b705c','enable':true,
             {% endif %}
         },
         {% endfor %}
@@ -255,7 +255,7 @@ css: [../plugins/travelmap/css/custom.css']
 </script> 
 
 
-<!-- where am I from -->
+<!-- where am I from
 <script type="text/javascript">
 var pin_config = {
     'default':{     'pinShadow':'#000',     'pinShadowOpacity':'50',    },
@@ -278,6 +278,7 @@ var pin_config = {
 }
 
 </script>
+    -->
 
 
 
