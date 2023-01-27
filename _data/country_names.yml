@@ -142,7 +142,7 @@
 -
   index: 'map_29'
   country_name: 'CANADA'
-  visited: false
+  visited: true
 
 -
   index: 'map_30'
@@ -157,12 +157,12 @@
 -
   index: 'map_32'
   country_name: 'CHILE'
-  visited: false
+  visited: True
 
 -
   index: 'map_33'
   country_name: 'CHINA'
-  visited: True
+  visited: false
 
 -
   index: 'map_34'
@@ -202,7 +202,7 @@
 -
   index: 'map_41'
   country_name: 'CZECH REPUBLIC'
-  visited: true
+  visited: false
 
 -
   index: 'map_42'
@@ -277,7 +277,7 @@
 -
   index: 'map_56'
   country_name: 'FRANCE'
-  visited: true
+  visited: false
 
 -
   index: 'map_57'
@@ -297,7 +297,7 @@
 -
   index: 'map_60'
   country_name: 'GERMANY'
-  visited: true
+  visited: false
 
 -
   index: 'map_61'
@@ -387,7 +387,7 @@
 -
   index: 'map_78'
   country_name: 'ITALY'
-  visited: true
+  visited: false
 
 -
   index: 'map_79'
@@ -412,7 +412,7 @@
 -
   index: 'map_83'
   country_name: 'KENYA'
-  visited: false
+  visited: true
 
 -
   index: 'map_84'
@@ -577,7 +577,7 @@
 -
   index: 'map_116'
   country_name: 'NICARAGUA'
-  visited: false
+  visited: true
 
 -
   index: 'map_117'
@@ -852,7 +852,7 @@
 -
   index: 'map_171'
   country_name: 'UNITED KINGDOM'
-  visited: true
+  visited: false
 
 -
   index: 'map_172'
