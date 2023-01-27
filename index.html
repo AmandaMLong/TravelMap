@@ -20,13 +20,13 @@ css: [../plugins/travelmap/css/custom.css']
     <div class="container">
 <table>
 <tbody>
-<tr class="color" bgcolor="#F8B2A3">  
+<tr class="color" bgcolor="#BC6C25">  
   <td class="color-name">
     <h4>Visited</h4>
   </td>
 </tr>
 
-<tr class="color" bgcolor="CFF7F9">
+<tr class="color" bgcolor="#FAEDCD">
   <td class="color-name">
     <h4>Unvisited</h4>
   </td>
@@ -245,9 +245,9 @@ css: [../plugins/travelmap/css/custom.css']
         {% for location in site.data.country_names %}
         '{{location.index}}':{
             {% if location.visited %}
-            'hover': '{{location.country_name}}','upColor':'#F8B2A3','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
+            'hover': '{{location.country_name}}','upColor':'#F8B2A3','overColor':'#dda15e','downColor':'#477cb2','enable':true,
             {% else %}
-            'hover': '{{location.country_name}}','upColor':'#CFF7F9','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
+            'hover': '{{location.country_name}}','upColor':'#CFF7F9','overColor':'#dda15e','downColor':'#477cb2','enable':true,
             {% endif %}
         },
         {% endfor %}
