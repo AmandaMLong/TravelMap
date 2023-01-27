@@ -245,9 +245,9 @@ css: [../plugins/travelmap/css/custom.css']
         {% for location in site.data.country_names %}
         '{{location.index}}':{
             {% if location.visited %}
-            'hover': '{{location.country_name}}','upColor':'#a5a58d','overColor':'#6b705c','downColor':'#6b705c','enable':true,
+            'hover': '{{location.country_name}}','upColor':'#6b705c','overColor':'#a5a58d','downColor':'#a5a58d','enable':true,
             {% else %}
-            'hover': '{{location.country_name}}','upColor':'#ddbea9','overColor':'#6b705c','downColor':'#6b705c','enable':true,
+            'hover': '{{location.country_name}}','upColor':'#ddbea9','overColor':'#a5a58d','downColor':'#a5a58d','enable':true,
             {% endif %}
         },
         {% endfor %}
