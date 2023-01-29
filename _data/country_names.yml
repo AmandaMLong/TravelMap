@@ -522,7 +522,7 @@
 -
   index: 'map_105'
   country_name: 'MEXICO'
-  visited: false
+  visited: true
 
 -
   index: 'map_106'
