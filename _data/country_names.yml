@@ -387,7 +387,7 @@
 -
   index: 'map_78'
   country_name: 'ITALY'
-  visited: false
+  visited: true
 
 -
   index: 'map_79'
