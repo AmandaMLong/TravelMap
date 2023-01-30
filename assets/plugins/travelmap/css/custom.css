@@ -1,8 +1,9 @@
 h1, h2, h3, h4, h5 {
 	color: #4A7296;
-	font-family: "Oswald", sans-serif;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	margin: 13px 0 3px 0;
 }
+
 a {
 	color: #3a72ab
 }
