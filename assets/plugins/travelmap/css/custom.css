@@ -1,8 +1,9 @@
 h1, h2, h3, h4, h5 {
 	color: #4A7296;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-weight: bold;
 	align-items: center;
-	justify-content: center;;
+	justify-content: center
 }
 
 a {
