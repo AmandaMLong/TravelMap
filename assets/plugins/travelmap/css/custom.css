@@ -183,8 +183,8 @@ p {
 		}
 
 
-
-
+/*======================description==================*/
+/* Nav
 .navbar .row {
 	padding-top: 2px
 }
@@ -277,6 +277,9 @@ p {
 	-webkit-border-radius: 10px;
 	border-radius: 10px
 }
+
+/*
+
 /*======================preview==================*/
 .map-preview { 
 
