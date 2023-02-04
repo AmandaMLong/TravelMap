@@ -52,7 +52,6 @@ body, input, select, textarea {
 
 		}
 
-
 }
 h2, h3, h4, h5, h6 {
 	color: #a5a58d;
@@ -103,7 +102,7 @@ h1 {
 	p {
 		margin: 0 0 1em 0;
 	}
-
+/*
 .top-line p {
 	margin-bottom: 0;
 	color: #8e979d;
@@ -122,6 +121,7 @@ h1 {
 	padding-left: 8px;
 }
 
+*/
 
 /* Header */
 
