@@ -265,13 +265,13 @@ css: [../plugins/travelmap/css/custom.css']
 <!-- hover style -->
 <script>
     var map_config = {
-        'default':{'borderColor':'#b5b5b5','mapShadow':'#fff','shadowOpacity':'35','hoverShadow':'#666666','lakesColor':'#66CCFF','namesColor':'#919191',},
+        'default':{'borderColor':'#cb997e','mapShadow':'#fff','shadowOpacity':'35','hoverShadow':'#666666','lakesColor':'#66CCFF','namesColor':'#919191',},
         {% for location in site.data.country_names %}
         '{{location.index}}':{
             {% if location.visited %}
             'hover': '{{location.country_name}}','upColor':'#6b705c','overColor':'#a5a58d','downColor':'#a5a58d','enable':true,
             {% else %}
-            'hover': '{{location.country_name}}','upColor':'#E2E2E2;','overColor':'#a5a58d','downColor':'#a5a58d','enable':true,
+            'hover': '{{location.country_name}}','upColor':'#ddbea9;','overColor':'#a5a58d','downColor':'#a5a58d','enable':true,
             {% endif %}
         },
         {% endfor %}
