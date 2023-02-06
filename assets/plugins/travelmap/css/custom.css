@@ -798,7 +798,7 @@ body, input, select, textarea {
 			font-size: 0.6rem;
 			color: rgba(88, 88, 88, 0.5);
 			opacity: 1;
-			margin-bottom: 0;
+			margin-bottom: 2;
 			text-transform: uppercase;
 		}
 
