@@ -38,6 +38,32 @@ blockquote, q {
 		content: none;
 	}
 
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	-webkit-text-size-adjust: none;
+}
+
+mark {
+	background-color: transparent;
+	color: inherit;
+}
+
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input, select, textarea {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+
 /* Type */
 
 body, input, select, textarea {
@@ -127,7 +153,7 @@ body, input, select, textarea {
 		margin: 1.2em 0 1em 0;
         text-align: center;
 		letter-spacing: 0.02em;
-		color: inherit;
+		color: #585858;
 	}
 
 	h3 {
@@ -323,11 +349,11 @@ body, input, select, textarea {
 		}
 
 		.icon.style2 {
-			-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			/*-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 			-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-			background-color: transparent;
+		*/	background-color: transparent;
 			border: solid 1px #a5a58d;
 			border-radius: 4px;
 			width: 2.65em;
