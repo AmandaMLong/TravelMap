@@ -266,18 +266,18 @@ css: [../plugins/travelmap/css/custom.css']
 <!-- hover style -->
 <script>
     var map_config = {
-        'default':{'borderColor':'#717e88','mapShadow':'#fff','shadowOpacity':'35','hoverShadow':'#666666','lakesColor':'#66CCFF','namesColor':'#919191',},
+        'default':{'borderColor':'#9CA8B6','mapShadow':'#fff','shadowOpacity':'35','hoverShadow':'#666666','lakesColor':'#66CCFF','namesColor':'#919191',},
         {% for location in site.data.country_names %}
         '{{location.index}}':{
             {% if location.visited %}
-            'hover': '{{location.country_name}}','upColor':'#6b705c','overColor':'#a5a58d','downColor':'#a5a58d','enable':true,
+            'hover': '{{location.country_name}}','upColor':'#F8B2A3','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
             {% else %}
-            'hover': '{{location.country_name}}','upColor':'#7E8C98;','overColor':'#a5a58d','downColor':'#a5a58d','enable':true,
+            'hover': '{{location.country_name}}','upColor':'#CFF7F9','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
             {% endif %}
         },
         {% endfor %}
     }
-</script> 
+</script>
 
 
 
