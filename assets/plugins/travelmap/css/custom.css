@@ -693,9 +693,9 @@ body, input, select, textarea {
 			display: block;
 			border-bottom: 0;
 			color: #585858;
-			font-weight: 900;
+			font-weight: 600;
 			letter-spacing: 0.05em;
-			margin: 0 0 2.5em 2em;
+			margin: 0 0 2em 0;
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
