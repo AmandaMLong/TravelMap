@@ -819,6 +819,43 @@ body, input, select, textarea {
 		}
 
 
+/* Wrapper */
+	#wrapper > * > .inner {
+		width: 100%;
+		max-width: 68em;
+		margin: 0 auto;
+		padding: 0 2.5em;
+	}
+
+		@media screen and (max-width: 736px) {
+
+			#wrapper > * > .inner {
+				padding: 0 1.25em;
+			}
+
+		}
+
+
+/*======================preview==================*/
+.map-preview {
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.map-preview h1 {
+	margin-top: 10px;
+	margin-bottom: 14px;
+	border: 1px solid #E2E2E2;
+	padding: 6px 15px 8px 15px;
+	margin: 0 0 20px;
+	list-style: none;
+	background-color: #F4F4F4;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+
 /*======================description==================*/
 /* Nav
 .navbar .row {
@@ -914,24 +951,9 @@ body, input, select, textarea {
 	border-radius: 10px
 }
 /*
-/*======================preview==================*/
-.map-preview {
 
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-.map-preview h1 {
-	margin-top: 10px;
-	margin-bottom: 14px;
-	border: 1px solid #E2E2E2;
-	padding: 6px 15px 8px 15px;
-	margin: 0 0 20px;
-	list-style: none;
-	background-color: #F4F4F4;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-}
+
+
 /*======================description==================*/
 .description {
 	padding-bottom: 10px;
