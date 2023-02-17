@@ -142,7 +142,7 @@
 -
   index: 'map_29'
   country_name: 'CANADA'
-  visited: true
+  visited: false
 
 -
   index: 'map_30'
@@ -522,7 +522,7 @@
 -
   index: 'map_105'
   country_name: 'MEXICO'
-  visited: true
+  visited: false
 
 -
   index: 'map_106'
