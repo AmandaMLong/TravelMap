@@ -1,6 +1,9 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
+/* -----------------------------------------------
+                    GLOBAL STYLES
+-------------------------------------------------- */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -22,6 +25,7 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
+
 body {
 	line-height: 1;
 }
@@ -60,8 +64,9 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Basic */
-
+/* -----------------------------------------------
+                   BASIC STYLES
+-------------------------------------------------- */
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -87,8 +92,9 @@ input, select, textarea {
 	}
 
 
-/* Type */
-
+/* -----------------------------------------------
+                    STYLE TYPE
+-------------------------------------------------- */
 body, input, select, textarea {
 	/*color: #a5a58d;*/
 	color:: #585858;
@@ -156,13 +162,14 @@ body, input, select, textarea {
 	h1 {
 		font-weight: 500;
 		line-height: 0.2;
-		letter-spacing: 0.02em;
+		letter-spacing: 0.01em;
 		text-align: center;
 		width: 100%;
 		text-align: center;
 		border-bottom: 0.5px solid #c9c9c9;
 		margin: 10px 0 20px;
 		color: #a5a58d;
+		font-size: 1.2em;
 	}
 
 	h1 span {
@@ -172,19 +179,21 @@ body, input, select, textarea {
 
 	h2 {
 		font-weight: 600;
-		line-height: .3;
-		margin: 1.2em 0 1em 0;
+		line-height: 1;
+		margin: .5em 0 0em 0;
         text-align: center;
-		letter-spacing: 0.02em;
+		letter-spacing: 0.01em;
 		color: #585858;
+		font-size: 2em;
 	}
 
 	h3 {
 		font-weight: 600;
-		line-height: 0.3;
-		margin: 0 0 1.2em 0;
+		line-height: 1;
+		margin: .3em 0 .5em 0;
         text-align: center;
 		letter-spacing: 0.01em;
+		font-size: 1.3em;
 	}
 
 	h4 {
@@ -193,6 +202,7 @@ body, input, select, textarea {
 		margin: 0 0 .5em 0;
         text-align: left;
 		letter-spacing: 0.02em;
+		font-size: 1.5em;
 	}
 
 	h5 {
@@ -201,49 +211,17 @@ body, input, select, textarea {
 		margin: 0.1em 0 .5em 0;
         text-align: left;
 		letter-spacing: 0.02em;
+		font-size: 1.5em;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 		}
 
-	h1 {
-		font-size: 1.2em;
-	}
-
-
-	h2 {
-		font-size: 2em;
-	}
-
-	h3 {
-		font-size: 1.5em;
-	}
-
-	h4 {
-		font-size: 1.5em;
-	}
-
-	h5 {
-		font-size: 1.5em;
-	}
-
 	@media screen and (max-width: 980px) {
 
 		h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 			display: none;
-		}
-
-	}
-
-	@media screen and (max-width: 736px) {
-
-		h2 {
-			font-size: 2em;
-		}
-
-		h3 {
-			font-size: 1.5em;
 		}
 
 	}
@@ -334,8 +312,9 @@ body, input, select, textarea {
 }
 */
 
-/* Icon */
-
+/* -----------------------------------------------
+                      ICON
+-------------------------------------------------- */
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -400,8 +379,9 @@ body, input, select, textarea {
 				background-color: rgba(242, 132, 158, 0.1);
 			}
 
-/* Actions */
-
+/* -----------------------------------------------
+                      ACTIONS
+-------------------------------------------------- */
 	ul.actions {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -522,8 +502,9 @@ body, input, select, textarea {
 
 		}
 
-/* Icons */
-
+/* -----------------------------------------------
+                      ICONS
+-------------------------------------------------- */
 	ul.icons {
 		cursor: default;
 		list-style: none;
@@ -536,8 +517,9 @@ body, input, select, textarea {
 			padding: 1em 0 0 1em;
 		}
 
-/* Box */
-
+/* -----------------------------------------------
+                        BOX
+-------------------------------------------------- */
 	.box {
 		border-radius: 4px;
 		border: solid 1px #c9c9c9;
@@ -558,14 +540,15 @@ body, input, select, textarea {
 		}
 
 
-/* Button */
-
+/* -----------------------------------------------
+                    BUTTONS
+-------------------------------------------------- */
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
 	button,
 	.button {
-		-moz-appearance: none;
+	/*	-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
@@ -573,14 +556,14 @@ body, input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-		background-color: transparent;
+	*/	background-color: transparent;
 		border-radius: 4px;
 		border: 0;
 		box-shadow: inset 0 0 0 2px #585858;
-		color: #585858 !important;
+		color: #a5a58d !important;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.8em;
+		font-size: 0.7em;
 		font-weight: 900;
 		height: 3.5em;
 		letter-spacing: 0.35em;
@@ -683,8 +666,9 @@ body, input, select, textarea {
 		}
 
 
-/* Header */
-
+/* -----------------------------------------------
+                    HEADER
+-------------------------------------------------- */
 	#header {
 		padding: 0.5em 0 0.1em 0 ;
 	}
@@ -694,7 +678,7 @@ body, input, select, textarea {
 			border-bottom: 0;
 			color: #a5a58d;
 			font-weight: 600;
-			letter-spacing: 0.05em;
+			letter-spacing: 0.01em;
 			margin: 0 0 2em 0;
 			text-decoration: none;
 			text-transform: uppercase;
@@ -747,13 +731,13 @@ body, input, select, textarea {
 						position: relative;
 						height: 2em;
 						line-height: 2em;
-						padding: 0 1em;
-						background-color: rgba(255, 255, 255, 0.5);
-						border-radius: 4px;
+						padding: 0 1.2em 0 0em;
+					/*	background-color: rgba(255, 255, 255, 0.5);
+					*/	border-radius: 4px;
 						border: 0;
 						font-size: 0.8em;
 						font-weight: 900;
-						letter-spacing: 0.1em;
+						letter-spacing: 0.01em;
 						text-transform: uppercase;
 					}
 
@@ -808,15 +792,19 @@ body, input, select, textarea {
 				padding: padding: 0.5em 0 0.1em 0;
 			}
 
-
+				#header nav {
+					right: 0.5em;
+					top: 0.5em;
+				}
 					#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
 						background-size: 1.5em 1.5em;
 					}
 
 		}
 
-/* Main */
-
+/* -----------------------------------------------
+                    MAIN CONTENT
+-------------------------------------------------- */
 	#main {
 		padding: 0em 0 6em 0 ;
 	}
@@ -829,8 +817,9 @@ body, input, select, textarea {
 
 		}
 
-/* Footer */
-
+/* -----------------------------------------------
+                    FOOTER
+-------------------------------------------------- */
 	#footer {
 		/*-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
@@ -843,32 +832,16 @@ body, input, select, textarea {
 	}
 
 		#footer .copyright {
-			letter-spacing: 0.2rem;
+			letter-spacing: 0.1rem;
 			font-size: 0.6rem;
-			color: rgba(88, 88, 88, 0.5);
 			opacity: 1;
 			margin-bottom: 1;
 			text-transform: uppercase;
 		}
 
-		body.is-article-visible #footer {
-			-moz-transform: scale(0.95);
-			-webkit-transform: scale(0.95);
-			-ms-transform: scale(0.95);
-			transform: scale(0.95);
-			-moz-filter: blur(0.1rem);
-			-webkit-filter: blur(0.1rem);
-			-ms-filter: blur(0.1rem);
-			filter: blur(0.1rem);
-			opacity: 0.75;
-		}
-
-		body.is-preload #footer {
-			opacity: 0.75;
-		}
-
-
-/* Wrapper */
+/* -----------------------------------------------
+                    WRAPPER
+-------------------------------------------------- */
 	#wrapper > * > .inner {
 		width: 100%;
 		max-width: 68em;
@@ -884,10 +857,10 @@ body, input, select, textarea {
 
 		}
 
-
-/*======================preview==================*/
+/* -----------------------------------------------
+                    MAP PREVIEW
+-------------------------------------------------- */
 .map-preview {
-
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -904,7 +877,9 @@ body, input, select, textarea {
 	border-radius: 4px;
 }
 
-/*======================description==================*/
+/* -----------------------------------------------
+                    DESCRIPTION
+-------------------------------------------------- */
 .description {
 	padding-bottom: 10px;
 	border-top: 1px solid #E2E2E2;
@@ -939,7 +914,7 @@ body, input, select, textarea {
 	margin-left: auto
 }
 /*.license{padding-left:10px}*/
-/*.disclaimer{font-size:12px;margin-top:4px}*/
+/*.disclaimer{font-size:12px;margin-top:4px}
 
 #sidebar {
 	display: inline-block;
@@ -1047,12 +1022,16 @@ body, input, select, textarea {
 .thumb-lg:hover {
 	border: 4px solid orange;
 }
-/*======================faq==================*/
+*/
+
+/* -----------------------------------------------
+                    FAQ
+-------------------------------------------------- */
 .faq {
 	background-color: #F7F7F7;
 }
 .faq h3, .faq h4, .faq h5 {
-	color: #7E8C98;
+	color: #585858;
 	margin: 3px 0 3px 0;
 }
 #all-maps h3, #all-maps h4, #all-maps h5 {
@@ -1065,9 +1044,9 @@ body, input, select, textarea {
 }
 
 
-/*===========================@media===========================*/
-/*============================================================*/
-
+/* -----------------------------------------------
+                   @MEDIA
+--------------------------------------------------
 @media(min-width:980px) and (max-width:1199px) {
 .carousel-inner .title {
 	left: 110px
@@ -1168,9 +1147,10 @@ hr {
 	margin-left: 10px
 }
 }
-
-/*===========================map-style===========================*/
-/*============================================================*/
+ */
+/* -----------------------------------------------
+                    MAP STYLE
+-------------------------------------------------- */
 #mapwrapper {
 	max-width: 68em;
 	width: 100%;
@@ -1218,14 +1198,14 @@ hr {
 }
 }*/
 #text-abb text {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	-moz-user-select: none;
 	-webkit-user-select: none;
 	user-select: none;
 }
 #map-tip {
 	text-align: left;
-	font: 14px/16px Trebuchet MS, Helvetica, Arial, sans-serif;
+	font: 14px/16px "Source Sans Pro", Helvetica, sans-serif;
 	display: none;
 	padding: 3px;
 	border: 1px solid #EBECED;
