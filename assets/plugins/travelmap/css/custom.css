@@ -1,5 +1,5 @@
 @import url("https://use.fontawesome.com/releases/v5.14.0/css/all.css"); 
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 
 /* -----------------------------------------------
                     GLOBAL STYLES
@@ -100,7 +100,7 @@ body, input, select, textarea {
 	color:: #585858;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
-		font-weight: 500;
+		font-weight: 400;
 		line-height: 1.5;
 	}
 
