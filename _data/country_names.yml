@@ -156,9 +156,8 @@
 
 -
   index: 'map_32'
-  country_name: 'CHILE<br><span style="color: black"><a target="_blank" rel="noopener noreferrer"
-  href="https://storymaps.arcgis.com/stories/4e4df2a903624f4c83cda7a6c68c3893"></a></span>'
-    # country_name: 'CHILE<br><span style="color: black;">*Link each country to any webpage*</span>'
+   #  country_name: 'CHILE<br><span style="color: black"><a target="_blank" rel="noopener noreferrer" href="https://storymaps.arcgis.com/stories/4e4df2a903624f4c83cda7a6c68c3893"></a></span>'
+  country_name: 'CHILE<br><span style="color: black;"><target="_blank" rel="noopener noreferrer" href="https://storymaps.arcgis.com/stories/4e4df2a903624f4c83cda7a6c68c3893"></span>'
   visited: True
 
 -
