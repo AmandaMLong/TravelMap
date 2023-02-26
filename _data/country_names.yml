@@ -157,7 +157,7 @@
 -
   index: 'map_32'
   country_name: '<span><a target="_blank" rel="noopener noreferrer"
-  href="https://storymaps.arcgis.com/stories/4e4df2a903624f4c83cda7a6c68c3893"
+  href="https://storymaps.arcgis.com/stories/4e4df2a903624f4c83cda7a6c68c3893">
   CHILE</a></span>'
     # country_name: 'AFGHANISTAN<br><span style="color: yellow;">*Link each country to any webpage*</span>'
   visited: True
