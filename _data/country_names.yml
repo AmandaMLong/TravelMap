@@ -858,7 +858,7 @@
 -
   index: 'map_172'
   country_name: 'UNITED STATES'
-  visited: false
+  visited: true
 
 -
   index: 'map_173'
@@ -900,10 +900,6 @@
   country_name: 'ZIMBABWE'
   visited: false
 
--
-  index: 'US-TX'
-  country_name: 'Texas, USA'
-  visited: true
 
 
 
