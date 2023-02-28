@@ -918,7 +918,12 @@
   index: 'map_DE'
   country_name: 'DELAWARE'
   visited: false
-
+  
+-
+  index: 'map_WV'
+  country_name: 'WEST VIRGINIA'
+  visited: false
+  
 -
   index: 'map_NY'
   country_name: 'NEW YORK'
@@ -1019,6 +1024,11 @@
   country_name: 'FLORIDA'
   visited: false
 
+-
+  index: 'map_MS'
+  country_name: 'MISSISSIPPI'
+  visited: false
+  
 -
   index: 'map_TN'
   country_name: 'TENNESSEE'
