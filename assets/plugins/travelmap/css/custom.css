@@ -995,7 +995,7 @@ body, input, select, textarea {
 }
 .review {
 	position: relative;
-	font-family: Georgia, serif;
+	font: inherit;
 	line-height: 20px;
 	padding: 5px 0 6px 30px;
 	font-size: 17px;
@@ -1245,18 +1245,18 @@ hr {
 	font: 14px/16px "Source Sans Pro", Helvetica, sans-serif;
 	display: none;
 	padding: 3px;
-	border: 1px solid #EBECED;
-	color: #edeef0;
+	border: 1px solid #fff;
+	color: #585858;
 	z-index: 1000;
 	float: left;
 	position: absolute;
-	background: rgb(73, 73, 73);
-	background: -moz-linear-gradient(top, rgba(73, 73, 73, 1) 0%, rgba(101, 101, 101, 1) 100%);
+	background: rgb(255, 255, 255, 0.7);
+	/*background: -moz-linear-gradient(top, rgba(73, 73, 73, 1) 0%, rgba(101, 101, 101, 1) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(73, 73, 73, 1)), color-stop(100%, rgba(101, 101, 101, 1)));
 	background: -webkit-linear-gradient(top, rgba(73, 73, 73, 1) 0%, rgba(101, 101, 101, 1) 100%);
 	background: -o-linear-gradient(top, rgba(73, 73, 73, 1) 0%, rgba(101, 101, 101, 1) 100%);
 	background: -ms-linear-gradient(top, rgba(73, 73, 73, 1) 0%, rgba(101, 101, 101, 1) 100%);
-	background: linear-gradient(to bottom, rgba(73, 73, 73, 1) 0%, rgba(101, 101, 101, 1) 100%);
+	*/background: linear-gradient(to bottom, rgba(73, 73, 73, 1) 0%, rgba(101, 101, 101, 1) 100%);
 	word-break: keep-all;
 	white-space: nowrap;
 }
