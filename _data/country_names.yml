@@ -42,7 +42,7 @@
 -
   index: 'map_9'
   country_name: 'AUSTRIA'
-  visited: false
+  visited: true
 
 -
   index: 'map_10'
@@ -156,14 +156,13 @@
 
 -
   index: 'map_32'
-   #  country_name: 'CHILE<br><span style="color: black"><a target="_blank" rel="noopener noreferrer" href="https://storymaps.arcgis.com/stories/4e4df2a903624f4c83cda7a6c68c3893"></a></span>'
-  country_name: 'CHILE<br><span style="color: black;"><target="_blank" rel="noopener noreferrer" href="https://storymaps.arcgis.com/stories/4e4df2a903624f4c83cda7a6c68c3893"></span>'
-  visited: True
+  country_name: 'CHILE'
+  visited: false
 
 -
   index: 'map_33'
   country_name: 'CHINA'
-  visited: false
+  visited: True
 
 -
   index: 'map_34'
@@ -203,7 +202,7 @@
 -
   index: 'map_41'
   country_name: 'CZECHIA'
-  visited: false
+  visited: true
 
 -
   index: 'map_42'
@@ -278,7 +277,7 @@
 -
   index: 'map_56'
   country_name: 'FRANCE'
-  visited: false
+  visited: true
 
 -
   index: 'map_57'
@@ -298,7 +297,7 @@
 -
   index: 'map_60'
   country_name: 'GERMANY'
-  visited: false
+  visited: true
 
 -
   index: 'map_61'
@@ -413,7 +412,7 @@
 -
   index: 'map_83'
   country_name: 'KENYA'
-  visited: true
+  visited: false
 
 -
   index: 'map_84'
@@ -578,7 +577,7 @@
 -
   index: 'map_116'
   country_name: 'NICARAGUA'
-  visited: true
+  visited: false
 
 -
   index: 'map_117'
@@ -773,7 +772,7 @@
 -
   index: 'map_155'
   country_name: 'SWITZERLAND'
-  visited: false
+  visited: true
 
 -
   index: 'map_156'
@@ -853,7 +852,7 @@
 -
   index: 'map_171'
   country_name: 'UNITED KINGDOM'
-  visited: false
+  visited: true
 
 -
   index: 'map_172'
@@ -900,10 +899,242 @@
   country_name: 'ZIMBABWE'
   visited: false
 
+-
+  index: 'map_181'
+  country_name: 'ANTARCTICA'
+  visited: false
 
+-
+  index: 'map_WA'
+  country_name: 'WASHINGTON'
+  visited: false
 
+-
+  index: 'map_MD'
+  country_name: 'MARYLAND'
+  visited: false
 
+-
+  index: 'map_DE'
+  country_name: 'DELAWARE'
+  visited: false
 
+-
+  index: 'map_NY'
+  country_name: 'NEW YORK'
+  visited: false
 
+-
+  index: 'map_NJ'
+  country_name: 'NEW JERSEY'
+  visited: false
 
+-
+  index: 'map_PA'
+  country_name: 'PENNSYLVANIA'
+  visited: false
 
+-
+  index: 'map_VA'
+  country_name: 'VIRGINIA'
+  visited: false
+
+-
+  index: 'map_KY'
+  country_name: 'KENTUCKY'
+  visited: false
+
+-
+  index: 'map_OH'
+  country_name: 'OHIO'
+  visited: false
+
+-
+  index: 'map_IN'
+  country_name: 'INDIANA'
+  visited: false
+
+-
+  index: 'map_IL'
+  country_name: 'ILLINOIS'
+  visited: false
+
+-
+  index: 'map_MI'
+  country_name: 'MICHIGAN'
+  visited: false
+
+-
+  index: 'map_WI'
+  country_name: 'WISCONSIN'
+  visited: false
+
+-
+  index: 'map_CT'
+  country_name: 'CONNECTICUT'
+  visited: false
+
+-
+  index: 'map_RI'
+  country_name: 'RHODE ISLAND'
+  visited: false
+
+-
+  index: 'map_VT'
+  country_name: 'VERMONT'
+  visited: false
+
+-
+  index: 'map_NH'
+  country_name: 'NEW HAMPSHIRE'
+  visited: false
+
+-
+  index: 'map_MA'
+  country_name: 'MASSACHUSETTS'
+  visited: false
+
+-
+  index: 'map_ME'
+  country_name: 'MAINE'
+  visited: false
+
+-
+  index: 'map_AL'
+  country_name: 'ALABAMA'
+  visited: false
+
+-
+  index: 'map_GA'
+  country_name: 'GEORGIA'
+  visited: false
+
+-
+  index: 'map_SC'
+  country_name: 'SOUTH CAROLINA'
+  visited: false
+
+-
+  index: 'map_FL'
+  country_name: 'FLORIDA'
+  visited: false
+
+-
+  index: 'map_TN'
+  country_name: 'TENNESSEE'
+  visited: false
+
+-
+  index: 'map_NC'
+  country_name: 'NORTH CAROLINA'
+  visited: false
+
+-
+  index: 'map_TX'
+  country_name: 'TEXAS'
+  visited: true
+
+-
+  index: 'map_OK'
+  country_name: 'OKLAHOMA'
+  visited: false
+
+-
+  index: 'map_NM'
+  country_name: 'NEW MEXICO'
+  visited: false
+
+-
+  index: 'map_NE'
+  country_name: 'NEBRASKA'
+  visited: false
+
+-
+  index: 'map_SD'
+  country_name: 'SOUTH DAKOTA'
+  visited: false
+
+-
+  index: 'map_KS'
+  country_name: 'KANSAS'
+  visited: true
+
+-
+  index: 'map_CO'
+  country_name: 'COLORADO'
+  visited: false
+
+-
+  index: 'map_ND'
+  country_name: 'NORTH DAKOTA'
+  visited: false
+
+-
+  index: 'map_AR'
+  country_name: 'ARKANSAS'
+  visited: false
+
+-
+  index: 'map_MO'
+  country_name: 'MISSOURI'
+  visited: false
+
+-
+  index: 'map_LA'
+  country_name: 'LOUISIANA'
+  visited: false
+
+-
+  index: 'map_IA'
+  country_name: 'IOWA'
+  visited: false
+
+-
+  index: 'map_MN'
+  country_name: 'MINNESOTA'
+  visited: false
+
+-
+  index: 'map_AZ'
+  country_name: 'ARIZONA'
+  visited: false
+
+-
+  index: 'map_NV'
+  country_name: 'NEVADA'
+  visited: false
+
+-
+  index: 'map_CA'
+  country_name: 'CALIFORNIA'
+  visited: false
+
+-
+  index: 'map_UT'
+  country_name: 'UTAH'
+  visited: false
+
+-
+  index: 'map_OR'
+  country_name: 'OREGON'
+  visited: false
+
+-
+  index: 'map_MT'
+  country_name: 'MONTANA'
+  visited: false
+
+-
+  index: 'map_ID'
+  country_name: 'IDAHO'
+  visited: false
+
+-
+  index: 'map_WY'
+  country_name: 'WYOMING'
+  visited: false
+
+-
+  index: 'map_HI'
+  country_name: 'HAWAII'
+  visited: false
