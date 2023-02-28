@@ -900,6 +900,7 @@ body, input, select, textarea {
 .map-preview {
 	padding-top: 10px;
 	padding-bottom: 10px;
+	margin-bottom: -2em;
 }
 .map-preview h1 {
 	margin-top: 10px;
