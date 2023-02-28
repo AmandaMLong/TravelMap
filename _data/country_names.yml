@@ -967,7 +967,7 @@
 -
   index: 'map_MI'
   country_name: 'MICHIGAN'
-  visited: false
+  visited: true
 
 -
   index: 'map_WI'
