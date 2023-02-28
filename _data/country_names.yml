@@ -1149,3 +1149,7 @@
   country_name: 'HAWAII'
   visited: false
 
+-
+  index: 'map_AK'
+  country_name: 'ALASKA'
+  visited: false
