@@ -156,7 +156,7 @@
 
 -
   index: 'map_32'
-  country_name: 'CHILE<br><span style="color: yellow;"><li><a href="https://storymaps.arcgis.com/stories/4e4df2a903624f4c83cda7a6c68c3893">StoryMap</a></li></span>'
+  country_name: 'CHILE<br><span style="color: yellow;"><li><a href="https://storymaps.arcgis.com/stories/4e4df2a903624f4c83cda7a6c68c3893"></a></li></span>'
   # country_name: 'CHILE<br><span style="color: yellow;"><a target="_blank" rel="noopener noreferrer" href="https://storymaps.arcgis.com/stories/4e4df2a903624f4c83cda7a6c68c3893"></span>'
   visited: true
 
