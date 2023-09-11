@@ -1148,7 +1148,7 @@
 -
   index: 'map_HI'
   country_name: 'HAWAII'
-  visited: false
+  visited: true
 
 -
   index: 'map_AK'
